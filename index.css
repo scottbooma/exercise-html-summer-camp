@@ -1,16 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Audiowide", cursive;
   margin: 0;
-  color: hsl(0, 0%, 20%);
-  border: 8px solid hsl(120, 60%, 40%);
-  height: 100vh;
-  box-sizing: border-box;
+  color: hsl(0, 0%, 10%);
+  background: linear-gradient(45deg, hsl(340, 100%, 75%), hsl(240, 100%, 70%));
+  background-size: cover;
 }
 
 h1 {
-  font-family: Staatliches, sans-serif;
   font-size: 64px;
   margin-top: 48px;
   margin-bottom: 48px;
@@ -36,7 +34,7 @@ label {
 }
 
 input {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   width: 25em;
   padding: 16px 12px;
   margin-left: auto;
@@ -45,7 +43,7 @@ input {
 
 button {
   border: none;
-  background-color: hsl(120, 60%, 40%);
+  background-color: hsl(240, 80%, 50%);
   color: #fff;
   padding: 16px 32px;
   font-weight: 700;
@@ -53,4 +51,14 @@ button {
   box-shadow: 1px 1px 3px hsl(0, 0%, 50%);
   margin: 0 auto;
   display: block;
+  font-family: "Audiowide", cursive;
+}
+
+.activities {
+  text-align: center;
+  margin-top: 60px;
+}
+
+h2 {
+  margin-bottom: 6px;
 }
